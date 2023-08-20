@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/design_default_color_primary"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/text2"
+        android:textColor="@color/white"
+        android:text="Azam"
+        />
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        app:layout_constraintTop_toTopOf="@id/text1"
+        app:layout_constraintStart_toEndOf="@id/text1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="@id/text1"
+        android:text="Bhagatpur"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="@id/text1"
+        app:layout_constraintEnd_toEndOf="@id/text2"
+        app:layout_constraintTop_toBottomOf="@id/text1"
+        android:textColor="@color/white"
+        android:text="Thana bhagatpur dsjhfs dffh fh hf hf h "
+        />
+
+
+   <!-- <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/cons1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent=".25"/>
+
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/cons2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent=".5"/>
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/cons3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent=".75"/>
+
+
+
+    &lt;!&ndash;    <TextView&ndash;&gt;
+&lt;!&ndash;        android:id="@id/cons1"&ndash;&gt;
+&lt;!&ndash;        android:layout_width="wrap_content"&ndash;&gt;
+&lt;!&ndash;        android:layout_height="wrap_content"&ndash;&gt;
+&lt;!&ndash;        android:layout_marginTop="318dp"&ndash;&gt;
+&lt;!&ndash;        android:text="TextView"&ndash;&gt;
+&lt;!&ndash;        app:layout_constraintEnd_toEndOf="parent"&ndash;&gt;
+&lt;!&ndash;        app:layout_constraintStart_toStartOf="parent"&ndash;&gt;
+&lt;!&ndash;        app:layout_constraintTop_toTopOf="parent" />&ndash;&gt;
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/cons4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.25"/>
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/cons5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.50"/>
+
+    <androidx.constraintlayout.widget.Guideline
+
+        android:id="@+id/cons6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.75"/>
+-->
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+

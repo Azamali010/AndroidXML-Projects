@@ -1,0 +1,22 @@
+package com.example.splash
+
+import android.content.Intent
+import androidx.appcompat.app.AppCompatActivity
+import android.os.Bundle
+import android.os.Handler
+
+class Splasg2 : AppCompatActivity() {
+
+    private val Splash_time : Long = 4000
+
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setContentView(R.layout.activity_splasg2)
+
+        Handler().postDelayed({
+            startActivity(Intent(this,MainActivity::class.java))
+            finish()
+        },Splash_time)
+
+    }
+}
